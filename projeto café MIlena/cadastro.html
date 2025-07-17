@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastre-se</title>
+</head>
+<body>
+    <center>
+        <font size="4">
+    <a href="index.html">Home</a>
+    <a href="https://www.starbucks.pt/informacao-nutricional">Tabela Nutricional</a>
+    <a href="https://www.google.com/maps/place/Starbucks/@-29.9890309,-51.1709779,17.18z/data=!4m6!3m5!1s0x9519770ea3693a91:0x303e5754d38cc873!8m2!3d-29.9890036!4d-51.1686881!16s%2Fg%2F11py9sf0mj?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D">Localização</a>
+    <a href="cadastro.html">Cadastre-se</a>
+    <a href="https://www.starbucks.com.br/sobre/atendimento">Fale Conosco</a>
+    </font>
+    </center>
+    <h1><img src="imagens_atividade_2/logo (1).jpg" alt="Logo do Starbuzz" width="80" height="80">Cadastre-se no Café Starbuzz</h1>
+
+    <form action="teste.php" method="get">
+    <p>Nome completo:*</p>
+    <input type="text" name="Nome" size="60" minlength="20" maxlength="150">
+    <p>Data Nascimento:*</p>
+    <input type="date" name="Data" size="20">
+    <p>Email:*</p>
+    <input type="text" name="e-mail" size="30">
+    <fieldset>
+        <legend>Sexo*</legend>
+            <input type="radio" name="Sexo" size="10">Feminino
+            <input type="radio" name="Sexo" size="10">Masculino
+    </fieldset>
+
+
+    <p>Café preferido</p>
+    <select name="cafe preferido">
+        <option value="Mistura da Casa">Mistura da Casa</option>
+        <option value="Café Arábico">Café Arábico</option>
+        <option value="Capuccino">Capuccino</option>
+        <option value="Chá">Chá</option>
+    </select>
+    <br>
+    <br>
+    <label>Você toma café ..</label> <br>
+    <input type="checkbox" name="horario" value="Manhã">Manhã
+    <input type="checkbox" name="horario" value="Tarde">Tarde
+    <input type="checkbox" name="horario" value="Noite">Noite
+    <br>
+    <br>
+    <textarea name="comentario" cols="20" rows="4">Deixe seu comentario</textarea>
+     <br>
+     <label for="email">Receber novidades por email</label>
+     <input type="checkbox">
+    <br>
+    <input type="submit" value="Enviar"> 
+    <input type="submit" value="Limpar">
+
+    </form>
+
+
+
+
+    <a href="index.html">Voltar</a>
+</body>
+</html>
